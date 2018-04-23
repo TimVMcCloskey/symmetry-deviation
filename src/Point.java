@@ -1,9 +1,9 @@
 
-/**
- * 
- *  Represents an x,y point
- *   
- */
+/***************************
+//
+//  Represents an x,y point
+//
+//***************************
 
 public class Point {
     public double x,y;
