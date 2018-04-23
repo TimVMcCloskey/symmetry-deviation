@@ -1,15 +1,15 @@
 
-/**
- * 
- *  Plots results
- *   
- */
-
 import java.util.*;
 import java.io.*;
 import java.awt.Graphics;
 import java.awt.Color;
 import javax.swing.JFrame;
+
+//********************
+//
+// Plots results
+//
+//********************
 
 public class Plot extends JFrame {
     Circle circle;
