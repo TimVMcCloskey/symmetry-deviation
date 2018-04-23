@@ -1,9 +1,9 @@
 
-/**
- * 
- *  Represents an line
- *   
- */
+//*********************
+//
+//  Represents an line
+//
+//*********************
 
 public class Line {
     public Point p1, p2;
