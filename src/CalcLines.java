@@ -1,12 +1,13 @@
 
-/**
- * 
- *  Basic calculations on lines
- *   
- */
+//********************************
+//
+//  Basic calculations on lines
+//
+//*******************************
 
 public class CalcLines {
     
+    // Returns length of line
     double length(Line line) {
         double x = line.p2.x - line.p1.x;
         double y = line.p2.y - line.p1.y;
@@ -14,16 +15,8 @@ public class CalcLines {
         return Math.sqrt( (x * x) + (y * y) );        
     }
     
-    
-    
-    //
-    //
-    // Get intersection of 2 lines using cross product method
-    //
-    // returns point(0.0 , 0.0) if no  intersection
-    //
-    //
-    
+    // Get intersection of 2 lines using cross product
+    // returns null if no intersection
     Point intersection(Line line1, Line line2) {
         Point point;
         double x1 = line1.p1.x;
