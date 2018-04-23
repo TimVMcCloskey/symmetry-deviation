@@ -1,10 +1,8 @@
 import java.io.*;
 import java.util.*;
 
-
 public class GeoIo {
-    
-    
+      
     //*****************************************************************
     //
     //  getTracePath
@@ -60,9 +58,6 @@ public class GeoIo {
         }
         return scatter;
     }
-    
-    
-    
     
     //************************************************************
     //
