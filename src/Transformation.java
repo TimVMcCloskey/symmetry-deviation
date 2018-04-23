@@ -1,3 +1,12 @@
+
+//*****************************
+//
+//  Transformation
+//
+//  2d matrix transformations
+//
+//*****************************
+
 public class Transformation {
 
     public double[][] matrix;
