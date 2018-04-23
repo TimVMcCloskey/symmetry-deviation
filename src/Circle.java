@@ -1,5 +1,13 @@
 import java.util.*;
 
+//***************************************************
+//
+//  Circle
+//
+//  Holds center, radius, degree increments of spokes,
+//  and spoke end points of circle
+//
+//****************************************************
 
 public class Circle {
     public Point center;
@@ -17,6 +25,7 @@ public class Circle {
         this.radius = r;
     }
     
+    // Fill spokePoints ArrayList with end point coordinates at deg intervals
     void getSpokes(double deg) {
         degree = deg;
         Transformation transform = new Transformation();
