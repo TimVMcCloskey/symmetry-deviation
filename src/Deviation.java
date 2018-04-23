@@ -1,9 +1,9 @@
 
-/**
- * 
- *  Deviation records
- *   
- */
+/************************
+//
+//  Deviation records
+//
+//************************
 
 public class Deviation {
     public double degree;  
