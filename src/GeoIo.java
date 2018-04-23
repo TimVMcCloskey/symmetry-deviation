@@ -5,11 +5,14 @@ import java.util.*;
 public class GeoIo {
     
     
-    //************************************************************
+    //*****************************************************************
     //
     //  getTracePath
     //
-    //************************************************************
+    // Parses svgFile for poly line path coordinates and returns a
+    // Scatter object with these points in it's scatterPoints ArrayList
+    //
+    //*****************************************************************
     
     Scatter getScatterPath(String svgFile) {
         Scatter scatter = new Scatter();
@@ -64,6 +67,8 @@ public class GeoIo {
     //************************************************************
     //
     //  getCircle
+    //
+    //  Parses svgFile for circle and returns circle object
     //
     //************************************************************
     
@@ -124,8 +129,12 @@ public class GeoIo {
         return circle;
     }
     
-    
-    
+    //******************
+    //
+    //  writeDeviations
+    //
+    //******************
+
     void writeDeviations(String deviationFile, Scatter scatter) {
         Deviation deviation;
         
@@ -145,9 +154,6 @@ public class GeoIo {
         }
     }
     
-    
-
-
     //************************************************************
     //
     //  isDouble
